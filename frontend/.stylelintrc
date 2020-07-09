@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier"
+  ],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "indentation": 2,
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always-multi-line",
+    "block-opening-brace-space-after": "always-single-lin",
+    "block-opening-brace-space-before": "always",
+    "selector-max-empty-lines": 1,
+    "declaration-colon-newline-after": "always-multi-line",
+    "value-list-comma-newline-after": "always-multi-line",
+    "number-leading-zero": "never",
+    "number-no-trailing-zeros": true,
+    "value-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true
+  }
+}
