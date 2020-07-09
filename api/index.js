@@ -17,7 +17,7 @@ const tokenRouter = require('./routes/token');
 
 // Connect DB
 mongoose.connect(
-  env.MONGO_ALTA_DB_USER,
+  env.MONGO_DATABASE,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true

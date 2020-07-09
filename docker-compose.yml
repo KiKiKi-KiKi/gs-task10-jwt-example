@@ -7,10 +7,21 @@ services:
     ports:
       - 6379:6379
 
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb/data:/data/db
+    restart: always
+
+
   api:
     build:
       context: './api'
       dockerfile: 'Dockerfile'
+    environment:
+      - MONGO_DATABASE=mongodb://mongodb:27017/MyApp
     volumes:
       - ./api:/api
       - ./api/package.json:/api/package.json
