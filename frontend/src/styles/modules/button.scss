@@ -1,0 +1,125 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition:
+    color .15s,
+    background-color .15s,
+    border-color .15s,
+    box-shadow .15s;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  &:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  &:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  &:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+}
+
+.btn-warning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  &:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+  }
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  &:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  &:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+}
+
+.btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  &:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+  }
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  &:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #007bff;
+  &:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+}
+
+.submit-btn {
+  max-width: 300px;
+  width: 100%;
+}

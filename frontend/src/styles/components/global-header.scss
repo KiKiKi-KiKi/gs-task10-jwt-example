@@ -1,0 +1,32 @@
+.global-header {
+  position: relative;
+  padding: .6rem 1rem;
+  background-color: #cae6f2;
+}
+
+.global-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.global-header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  > * {
+    margin-left: .25rem;
+    margin-right: .25rem;
+  }
+
+  .btn {
+    font-size: 83%;
+  }
+}

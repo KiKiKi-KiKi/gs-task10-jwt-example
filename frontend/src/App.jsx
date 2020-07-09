@@ -4,6 +4,8 @@ import UserContextProvider from './contexts/UserContextProvider';
 import LoginSignupModalProvider from './contexts/LoginSignupModalProvider';
 import Header from './components/Header';
 
+import './styles/app.scss';
+
 export default function App() {
   return (
     <UserContextProvider>

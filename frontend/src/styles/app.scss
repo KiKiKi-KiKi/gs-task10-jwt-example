@@ -1,0 +1,27 @@
+@import '~normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #32383c;
+  line-height: 1.6;
+}
+
+// layouts
+@import './layouts/layouts';
+
+// modules
+@import './modules/alert';
+@import './modules/button';
+@import './modules/form';
+
+// components
+@import './components/modal';
+@import './components/global-header';
